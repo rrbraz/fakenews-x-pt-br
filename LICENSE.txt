@@ -1,0 +1,32 @@
+# Licença Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+## FakeNews-X-PT-BR Dataset
+
+Este conjunto de dados está licenciado sob a **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+
+### Você tem o direito de:
+
+- **Compartilhar** — copiar e redistribuir o material em qualquer suporte ou formato
+- **Adaptar** — remixar, transformar, e criar a partir do material
+- Para qualquer fim, mesmo comercial
+
+O licenciante não pode revogar estes direitos desde que você respeite os termos da licença.
+
+### Sob as seguintes condições:
+
+- **Atribuição** — Você deve dar o crédito apropriado, prover um link para a licença e indicar se mudanças foram feitas. Você deve fazê-lo em qualquer circunstância razoável, mas de nenhuma maneira que sugira que o licenciante apoia você ou o seu uso.
+
+### Avisos:
+
+- Você não tem de cumprir com os termos da licença para elementos do material em domínio público ou onde o seu uso é permitido por uma exceção ou limitação aplicável.
+- Não são dadas garantias. A licença pode não lhe dar todas as autorizações necessárias para o seu uso pretendido. Por exemplo, outros direitos como direitos de imagem, de privacidade ou direitos morais podem limitar o seu uso do material.
+
+### Uso Acadêmico e Ético:
+
+Este dataset foi criado especificamente para pesquisa acadêmica em detecção de notícias falsas. Embora a licença permita uso comercial, recomendamos que o uso seja feito de forma ética e responsável, contribuindo para o combate à desinformação.
+
+---
+
+Para mais informações sobre esta licença, visite: https://creativecommons.org/licenses/by/4.0/
+
+**Texto original da licença CC BY 4.0 disponível em**: https://creativecommons.org/licenses/by/4.0/legalcode
