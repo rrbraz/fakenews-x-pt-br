@@ -27,17 +27,25 @@ O **FakeNews-X-PT-BR** é um conjunto de dados criado para pesquisa acadêmica e
 
 O dataset está disponível no arquivo `dataset.parquet` com as seguintes colunas:
 
-- `categoria`: Categoria temática do conteúdo
-- `label`: Classificação da notícia ("fake" ou "true")
+### Informações do Tweet
 - `tweet_id`: ID único do tweet
 - `full_text`: Texto completo do tweet
 - `created_at`: Data e hora de criação do tweet
+- `categoria`: Categoria temática do conteúdo
+- `label`: Classificação da notícia ("fake" ou "true")
+
+### Métricas de Engajamento
+- `favorite_count`: Número de curtidas do tweet
+- `retweet_count`: Número de retweets do tweet
+- `reply_count`: Número de respostas ao tweet
+
+### Informações do Perfil
 - `description`: Biografia do usuário
+- `verified`: Status de verificação da conta (True/False)
 - `followers_count`: Número de seguidores
 - `friends_count`: Número de pessoas seguidas
-- `statuses_count`: Número de tweets publicados
-- `favourites_count`: Número de tweets curtidos
-- `verified`: Status de verificação da conta
+- `statuses_count`: Número de tweets publicados pelo usuário
+- `favourites_count`: Número de tweets curtidos pelo usuário
 
 ## Aplicações
 
