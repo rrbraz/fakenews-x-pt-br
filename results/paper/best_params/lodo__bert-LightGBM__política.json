@@ -1,0 +1,24 @@
+{
+  "split": "lodo",
+  "feature_set": "bert",
+  "model": "LightGBM",
+  "fold": "pol\u00edtica",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.875,
+  "best_params": {
+    "n_estimators": 200,
+    "learning_rate": 0.09516533332614598,
+    "max_depth": 10,
+    "num_leaves": 79,
+    "subsample": 0.9189844733317425,
+    "colsample_bytree": 0.9988654256991712,
+    "reg_alpha": 4.695291582957863,
+    "reg_lambda": 1.1530595643008659
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "split": "lodo",
+  "feature_set": "bert",
+  "model": "DecisionTree",
+  "fold": "pol\u00edtica",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6656067832538421,
+  "best_params": {
+    "max_depth": 5,
+    "min_samples_split": 10,
+    "class_weight": null
+  }
+}

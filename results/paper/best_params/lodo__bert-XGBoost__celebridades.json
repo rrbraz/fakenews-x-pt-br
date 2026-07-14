@@ -1,0 +1,23 @@
+{
+  "split": "lodo",
+  "feature_set": "bert",
+  "model": "XGBoost",
+  "fold": "celebridades",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.7866793578272734,
+  "best_params": {
+    "n_estimators": 242,
+    "learning_rate": 0.08794680451040801,
+    "max_depth": 10,
+    "subsample": 0.9706988847559855,
+    "colsample_bytree": 0.8803070971029338,
+    "reg_alpha": 2.301842437346237,
+    "reg_lambda": 7.940873221077585
+  }
+}

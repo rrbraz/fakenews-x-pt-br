@@ -1,0 +1,20 @@
+{
+  "split": "lodo",
+  "feature_set": "tfidf",
+  "model": "RandomForest",
+  "fold": "outros",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6360944168626427,
+  "best_params": {
+    "n_estimators": 126,
+    "max_depth": 11,
+    "min_samples_split": 18,
+    "class_weight": "balanced_subsample"
+  }
+}

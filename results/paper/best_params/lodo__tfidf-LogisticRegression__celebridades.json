@@ -1,0 +1,20 @@
+{
+  "split": "lodo",
+  "feature_set": "tfidf",
+  "model": "LogisticRegression",
+  "fold": "celebridades",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6666666666666666,
+  "best_params": {
+    "C": 1.7406828393128083e-05,
+    "class_weight": "balanced",
+    "solver": "liblinear",
+    "max_iter": 568
+  }
+}

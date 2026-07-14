@@ -1,0 +1,23 @@
+{
+  "split": "temporal",
+  "feature_set": "tfidf",
+  "model": "XGBoost",
+  "fold": "all",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6838420838420838,
+  "best_params": {
+    "n_estimators": 249,
+    "learning_rate": 0.024100704703568353,
+    "max_depth": 3,
+    "subsample": 0.6903380313998941,
+    "colsample_bytree": 0.9287296132272981,
+    "reg_alpha": 6.0405511127447005,
+    "reg_lambda": 6.21829142918702
+  }
+}

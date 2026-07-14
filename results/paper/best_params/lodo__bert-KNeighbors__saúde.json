@@ -1,0 +1,18 @@
+{
+  "split": "lodo",
+  "feature_set": "bert",
+  "model": "KNeighbors",
+  "fold": "sa\u00fade",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.782608695652174,
+  "best_params": {
+    "n_neighbors": 11,
+    "weights": "distance"
+  }
+}

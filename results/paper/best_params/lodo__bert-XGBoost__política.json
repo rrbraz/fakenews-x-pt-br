@@ -1,0 +1,23 @@
+{
+  "split": "lodo",
+  "feature_set": "bert",
+  "model": "XGBoost",
+  "fold": "pol\u00edtica",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.8888146167557932,
+  "best_params": {
+    "n_estimators": 235,
+    "learning_rate": 0.09347795150543747,
+    "max_depth": 6,
+    "subsample": 0.5083291947378572,
+    "colsample_bytree": 0.9892994151165273,
+    "reg_alpha": 2.7610085602747465,
+    "reg_lambda": 1.1110429213735817
+  }
+}

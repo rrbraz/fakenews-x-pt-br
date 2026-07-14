@@ -1,0 +1,41 @@
+{
+  "release_status": "local pre-release",
+  "distribution_mode": "ID-only public release",
+  "paper_snapshot_rows": 660,
+  "unique_tweet_ids": 659,
+  "deduplicated_view_rows": 659,
+  "duplicate_source_rows": 2,
+  "class_counts": {
+    "fake": 330,
+    "true": 330
+  },
+  "domain_counts": {
+    "política": 435,
+    "saúde": 143,
+    "outros": 44,
+    "ambiente": 22,
+    "celebridades": 8,
+    "economia": 8
+  },
+  "label_mapping": {
+    "fake": 0,
+    "true": 1
+  },
+  "model_input_dimensions": {
+    "bertimbau_embedding": 768,
+    "numerical": 7,
+    "llm_polarity": 3,
+    "llm_markers": 29,
+    "auxiliary_total": 39
+  },
+  "excluded_x_content": [
+    "post text",
+    "post URLs",
+    "account names and usernames",
+    "profile descriptions",
+    "timestamps",
+    "engagement and profile snapshots",
+    "row-level BERT embeddings derived from post text",
+    "free-text LLM rationales that may quote post content"
+  ]
+}

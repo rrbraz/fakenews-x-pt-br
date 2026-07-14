@@ -1,0 +1,24 @@
+{
+  "split": "temporal",
+  "feature_set": "tfidf",
+  "model": "LightGBM",
+  "fold": "all",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.7142857142857143,
+  "best_params": {
+    "n_estimators": 195,
+    "learning_rate": 0.010069505047545791,
+    "max_depth": 8,
+    "num_leaves": 95,
+    "subsample": 0.8706544896026513,
+    "colsample_bytree": 0.9928259089541893,
+    "reg_alpha": 0.5411463027082144,
+    "reg_lambda": 2.139193553310853
+  }
+}

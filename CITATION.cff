@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite the accompanying article."
+title: "FakeNews-X-PT-BR: dataset and reproducibility package"
+type: dataset
+version: 1.0.0-pre
+date-released: 2026-07-14
+authors:
+  - family-names: Braz
+    given-names: Rafael Rodrigues
+  - family-names: Digiampietri
+    given-names: Luciano Antonio
+repository-code: "https://github.com/rrbraz/fakenews-x-pt-br"
+keywords:
+  - fake news detection
+  - Brazilian Portuguese
+  - cross-domain evaluation
+  - temporal evaluation
+  - large language models
+preferred-citation:
+  type: article
+  title: "FakeNews-X-PT-BR: A Benchmark of Textual and LLM-Derived Signals under Domain and Temporal Shifts"
+  authors:
+    - family-names: Braz
+      given-names: Rafael Rodrigues
+    - family-names: Digiampietri
+      given-names: Luciano Antonio
+  journal: "Journal of the Brazilian Computer Society"
+  year: 2026

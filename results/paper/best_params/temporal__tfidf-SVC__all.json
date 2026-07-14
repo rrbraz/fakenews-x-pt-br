@@ -1,0 +1,20 @@
+{
+  "split": "temporal",
+  "feature_set": "tfidf",
+  "model": "SVC",
+  "fold": "all",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6585365853658537,
+  "best_params": {
+    "C": 1.2848244918776375,
+    "kernel": "linear",
+    "gamma": "scale",
+    "class_weight": "balanced"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "split": "lodo",
+  "feature_set": "bert_num",
+  "model": "RandomForest",
+  "fold": "celebridades",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.7758109144247758,
+  "best_params": {
+    "n_estimators": 282,
+    "max_depth": 12,
+    "min_samples_split": 7,
+    "class_weight": "balanced"
+  }
+}

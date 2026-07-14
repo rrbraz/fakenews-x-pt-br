@@ -1,0 +1,17 @@
+{
+  "split": "lodo",
+  "feature_set": "tfidf",
+  "model": "MultinomialNB",
+  "fold": "economia",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6930693069306931,
+  "best_params": {
+    "alpha": 9.857149534659335
+  }
+}

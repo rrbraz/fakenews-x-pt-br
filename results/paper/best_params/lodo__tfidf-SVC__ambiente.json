@@ -1,0 +1,20 @@
+{
+  "split": "lodo",
+  "feature_set": "tfidf",
+  "model": "SVC",
+  "fold": "ambiente",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.7474747474747475,
+  "best_params": {
+    "C": 0.6228593858673408,
+    "kernel": "linear",
+    "gamma": "auto",
+    "class_weight": null
+  }
+}

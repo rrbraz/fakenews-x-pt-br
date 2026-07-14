@@ -1,0 +1,23 @@
+{
+  "split": "temporal",
+  "feature_set": "bert",
+  "model": "XGBoost",
+  "fold": "all",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.7550806584783935,
+  "best_params": {
+    "n_estimators": 236,
+    "learning_rate": 0.10046466880732956,
+    "max_depth": 3,
+    "subsample": 0.8838675934596903,
+    "colsample_bytree": 0.923747559664775,
+    "reg_alpha": 5.996704951226218,
+    "reg_lambda": 9.838845200134559
+  }
+}

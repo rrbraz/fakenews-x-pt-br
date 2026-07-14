@@ -1,0 +1,9 @@
+record_id,tweet_id,categoria,author_seen_in_fit_train,author_seen_in_development,y_true,y_pred,y_proba
+fnxptbr-0082,1426258912022519809,economia,False,False,0,0,0.2106821
+fnxptbr-0314,1724863514659922379,economia,False,False,0,0,0.27704132
+fnxptbr-0316,1724863511551979794,economia,False,False,0,1,0.7864806
+fnxptbr-0317,1724162209255719129,economia,True,True,0,1,0.75834554
+fnxptbr-0412,1304078489792937984,economia,True,True,1,0,0.22877623
+fnxptbr-0644,1815409000378204440,economia,True,True,1,1,0.9435193
+fnxptbr-0646,1813991601016115384,economia,False,False,1,1,0.66974455
+fnxptbr-0647,1806353224175149105,economia,True,True,1,0,0.26247466

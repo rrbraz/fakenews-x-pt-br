@@ -1,0 +1,19 @@
+{
+  "split": "lodo",
+  "feature_set": "tfidf",
+  "model": "DecisionTree",
+  "fold": "outros",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6451612903225806,
+  "best_params": {
+    "max_depth": 3,
+    "min_samples_split": 20,
+    "class_weight": "balanced"
+  }
+}

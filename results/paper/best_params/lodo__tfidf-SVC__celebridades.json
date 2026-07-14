@@ -1,0 +1,20 @@
+{
+  "split": "lodo",
+  "feature_set": "tfidf",
+  "model": "SVC",
+  "fold": "celebridades",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6236559139784946,
+  "best_params": {
+    "C": 24.61842854149343,
+    "kernel": "linear",
+    "gamma": "auto",
+    "class_weight": "balanced"
+  }
+}

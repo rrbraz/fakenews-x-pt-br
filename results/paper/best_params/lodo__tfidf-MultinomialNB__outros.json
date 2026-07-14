@@ -1,0 +1,17 @@
+{
+  "split": "lodo",
+  "feature_set": "tfidf",
+  "model": "MultinomialNB",
+  "fold": "outros",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6511627906976745,
+  "best_params": {
+    "alpha": 0.5721001024331432
+  }
+}

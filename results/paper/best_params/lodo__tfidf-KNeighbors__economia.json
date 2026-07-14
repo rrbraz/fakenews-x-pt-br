@@ -1,0 +1,18 @@
+{
+  "split": "lodo",
+  "feature_set": "tfidf",
+  "model": "KNeighbors",
+  "fold": "economia",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.5057471264367817,
+  "best_params": {
+    "n_neighbors": 4,
+    "weights": "distance"
+  }
+}

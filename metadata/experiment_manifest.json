@@ -1,0 +1,47 @@
+{
+  "paper_protocol": {
+    "seed_base": 42,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "optuna_trials_per_model_fold": 200,
+    "temporal_split": {
+      "method": "chronological; newest 15% test; 15% of remainder validation",
+      "rows": {
+        "train": 476,
+        "validation": 85,
+        "test": 99
+      }
+    },
+    "lodo_domains": [
+      "política",
+      "outros",
+      "ambiente",
+      "saúde",
+      "celebridades",
+      "economia"
+    ]
+  },
+  "bertimbau": {
+    "repository": "neuralmind/bert-base-portuguese-cased",
+    "revision": "94d69c95f98f7d5b2a8700c420230ae10def0baa",
+    "pooling": "last hidden-state CLS token",
+    "max_length": 128,
+    "fine_tuned": false,
+    "embedding_dimensions": 768,
+    "note": "Exact row-level embeddings are not redistributed in the ID-only public release; the immutable model revision and generation code are provided."
+  },
+  "llm_annotation": {
+    "gateway": "OpenRouter",
+    "requested_model": "anthropic/claude-haiku-4.5",
+    "provider_model_identifier": "anthropic/claude-4.5-haiku-20251001",
+    "temperature": 0.7,
+    "max_tokens": 1024,
+    "max_retries": 3,
+    "exact_structured_labels_included": true,
+    "free_text_rationales_included": false,
+    "note": "Polarity and marker outputs are supplied. Free-text rationales are excluded because they may quote post content. Regeneration can differ because the original run was stochastic and provider behavior can change."
+  }
+}

@@ -1,0 +1,3 @@
+record_id,tweet_id,categoria,label,duplicate_group,issue
+fnxptbr-0154,1470818820109619206,política,fake,1,same tweet_id assigned to more than one domain
+fnxptbr-0155,1470818820109619206,saúde,fake,1,same tweet_id assigned to more than one domain

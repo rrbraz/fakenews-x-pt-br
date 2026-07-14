@@ -1,0 +1,19 @@
+{
+  "split": "temporal",
+  "feature_set": "bert",
+  "model": "DecisionTree",
+  "fold": "all",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6697383891828337,
+  "best_params": {
+    "max_depth": 6,
+    "min_samples_split": 6,
+    "class_weight": "balanced"
+  }
+}

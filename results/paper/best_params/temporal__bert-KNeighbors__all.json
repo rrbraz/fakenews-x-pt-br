@@ -1,0 +1,18 @@
+{
+  "split": "temporal",
+  "feature_set": "bert",
+  "model": "KNeighbors",
+  "fold": "all",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6666666666666666,
+  "best_params": {
+    "n_neighbors": 12,
+    "weights": "distance"
+  }
+}

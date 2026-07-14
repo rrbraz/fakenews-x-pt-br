@@ -1,0 +1,12 @@
+.DS_Store
+.vscode/
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db-shm
+*.db-wal
+data/generated/
+data/llm_cache/
+results/rerun/

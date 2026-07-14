@@ -1,0 +1,20 @@
+{
+  "split": "temporal",
+  "feature_set": "bert_num",
+  "model": "SVC",
+  "fold": "all",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.725,
+  "best_params": {
+    "C": 4.728894833801211,
+    "kernel": "rbf",
+    "gamma": "scale",
+    "class_weight": "balanced"
+  }
+}

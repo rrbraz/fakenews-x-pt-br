@@ -1,0 +1,24 @@
+{
+  "split": "temporal",
+  "feature_set": "bert",
+  "model": "LightGBM",
+  "fold": "all",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.7951807228915663,
+  "best_params": {
+    "n_estimators": 120,
+    "learning_rate": 0.03006559326663319,
+    "max_depth": 3,
+    "num_leaves": 12,
+    "subsample": 0.6441228770432638,
+    "colsample_bytree": 0.9997000947386815,
+    "reg_alpha": 4.743408819756722,
+    "reg_lambda": 6.934687554569223
+  }
+}

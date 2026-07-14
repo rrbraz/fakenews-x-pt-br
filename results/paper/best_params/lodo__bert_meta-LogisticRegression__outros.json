@@ -1,0 +1,20 @@
+{
+  "split": "lodo",
+  "feature_set": "bert_meta",
+  "model": "LogisticRegression",
+  "fold": "outros",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.7560975609756099,
+  "best_params": {
+    "C": 0.06713854967599224,
+    "class_weight": null,
+    "solver": "saga",
+    "max_iter": 906
+  }
+}

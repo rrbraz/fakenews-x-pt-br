@@ -1,0 +1,20 @@
+{
+  "split": "temporal",
+  "feature_set": "bert_meta",
+  "model": "RandomForest",
+  "fold": "all",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.7425889862598724,
+  "best_params": {
+    "n_estimators": 165,
+    "max_depth": 4,
+    "min_samples_split": 19,
+    "class_weight": "balanced_subsample"
+  }
+}

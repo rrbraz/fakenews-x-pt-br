@@ -1,0 +1,24 @@
+{
+  "split": "lodo",
+  "feature_set": "bert",
+  "model": "LightGBM",
+  "fold": "celebridades",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.7869022196337281,
+  "best_params": {
+    "n_estimators": 235,
+    "learning_rate": 0.05920616895231255,
+    "max_depth": 6,
+    "num_leaves": 33,
+    "subsample": 0.7148039035323493,
+    "colsample_bytree": 0.7293427164248981,
+    "reg_alpha": 4.063968864401959,
+    "reg_lambda": 6.5875968681414845
+  }
+}

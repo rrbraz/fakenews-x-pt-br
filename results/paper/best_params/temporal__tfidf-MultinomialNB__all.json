@@ -1,0 +1,17 @@
+{
+  "split": "temporal",
+  "feature_set": "tfidf",
+  "model": "MultinomialNB",
+  "fold": "all",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6153846153846154,
+  "best_params": {
+    "alpha": 0.13292918943162169
+  }
+}

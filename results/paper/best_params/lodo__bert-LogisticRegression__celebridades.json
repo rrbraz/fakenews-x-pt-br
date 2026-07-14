@@ -1,0 +1,20 @@
+{
+  "split": "lodo",
+  "feature_set": "bert",
+  "model": "LogisticRegression",
+  "fold": "celebridades",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.7346938775510204,
+  "best_params": {
+    "C": 0.030079917553182133,
+    "class_weight": "balanced",
+    "solver": "saga",
+    "max_iter": 999
+  }
+}

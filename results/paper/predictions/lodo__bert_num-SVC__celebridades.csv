@@ -1,0 +1,9 @@
+record_id,tweet_id,categoria,author_seen_in_fit_train,author_seen_in_development,y_true,y_pred,y_proba
+fnxptbr-0071,1287767047863242752,celebridades,False,False,0,0,0.2359773981387336
+fnxptbr-0100,1317302038280228865,celebridades,False,False,0,0,0.0400280616003391
+fnxptbr-0244,1685837734735126528,celebridades,False,False,0,0,0.3295152238143042
+fnxptbr-0268,1717940800665891173,celebridades,False,False,0,0,0.0403579236097635
+fnxptbr-0401,1283434095305986048,celebridades,False,False,1,0,0.0725591014465658
+fnxptbr-0430,1332658885925212163,celebridades,False,False,1,1,0.8330662211744676
+fnxptbr-0574,1695189088066781387,celebridades,True,True,1,1,0.8240745083448933
+fnxptbr-0598,1719104783980654766,celebridades,False,False,1,0,0.3032415417647726

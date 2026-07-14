@@ -1,0 +1,19 @@
+{
+  "split": "temporal",
+  "feature_set": "tfidf",
+  "model": "DecisionTree",
+  "fold": "all",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.661498708010336,
+  "best_params": {
+    "max_depth": 8,
+    "min_samples_split": 9,
+    "class_weight": null
+  }
+}

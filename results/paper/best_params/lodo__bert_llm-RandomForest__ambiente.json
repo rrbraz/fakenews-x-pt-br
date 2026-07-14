@@ -1,0 +1,20 @@
+{
+  "split": "lodo",
+  "feature_set": "bert_llm",
+  "model": "RandomForest",
+  "fold": "ambiente",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.800031509708929,
+  "best_params": {
+    "n_estimators": 81,
+    "max_depth": 12,
+    "min_samples_split": 19,
+    "class_weight": null
+  }
+}

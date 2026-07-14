@@ -1,0 +1,20 @@
+{
+  "split": "lodo",
+  "feature_set": "bert_meta",
+  "model": "SVC",
+  "fold": "outros",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.7804878048780489,
+  "best_params": {
+    "C": 6.298090240901809,
+    "kernel": "rbf",
+    "gamma": "scale",
+    "class_weight": null
+  }
+}

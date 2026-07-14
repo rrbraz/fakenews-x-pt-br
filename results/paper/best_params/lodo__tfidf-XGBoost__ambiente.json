@@ -1,0 +1,23 @@
+{
+  "split": "lodo",
+  "feature_set": "tfidf",
+  "model": "XGBoost",
+  "fold": "ambiente",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6947881672265771,
+  "best_params": {
+    "n_estimators": 203,
+    "learning_rate": 0.17783100129394058,
+    "max_depth": 8,
+    "subsample": 0.8395131415531779,
+    "colsample_bytree": 0.9465110336285575,
+    "reg_alpha": 5.595553716699817,
+    "reg_lambda": 8.605406642780435
+  }
+}

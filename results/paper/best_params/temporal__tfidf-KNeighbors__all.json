@@ -1,0 +1,18 @@
+{
+  "split": "temporal",
+  "feature_set": "tfidf",
+  "model": "KNeighbors",
+  "fold": "all",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6788990825688074,
+  "best_params": {
+    "n_neighbors": 15,
+    "weights": "uniform"
+  }
+}

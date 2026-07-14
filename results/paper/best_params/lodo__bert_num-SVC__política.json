@@ -1,0 +1,20 @@
+{
+  "split": "lodo",
+  "feature_set": "bert_num",
+  "model": "SVC",
+  "fold": "pol\u00edtica",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.8484848484848485,
+  "best_params": {
+    "C": 39.45922416263108,
+    "kernel": "rbf",
+    "gamma": "auto",
+    "class_weight": null
+  }
+}

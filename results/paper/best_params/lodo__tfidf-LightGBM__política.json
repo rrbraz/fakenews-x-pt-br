@@ -1,0 +1,24 @@
+{
+  "split": "lodo",
+  "feature_set": "tfidf",
+  "model": "LightGBM",
+  "fold": "pol\u00edtica",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6829268292682927,
+  "best_params": {
+    "n_estimators": 58,
+    "learning_rate": 0.017704840118977095,
+    "max_depth": 10,
+    "num_leaves": 77,
+    "subsample": 0.981981048594938,
+    "colsample_bytree": 0.9870991378595848,
+    "reg_alpha": 5.804852477044424,
+    "reg_lambda": 8.465646055257842
+  }
+}

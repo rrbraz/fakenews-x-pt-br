@@ -1,0 +1,20 @@
+{
+  "split": "temporal",
+  "feature_set": "tfidf",
+  "model": "RandomForest",
+  "fold": "all",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.6869656674930509,
+  "best_params": {
+    "n_estimators": 169,
+    "max_depth": 3,
+    "min_samples_split": 2,
+    "class_weight": "balanced_subsample"
+  }
+}

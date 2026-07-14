@@ -1,0 +1,20 @@
+{
+  "split": "temporal",
+  "feature_set": "bert_num",
+  "model": "LogisticRegression",
+  "fold": "all",
+  "n_trials_completed": 200,
+  "seeds_per_trial": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "best_val_f1": 0.762739370334307,
+  "best_params": {
+    "C": 0.3470108449763787,
+    "class_weight": null,
+    "solver": "saga",
+    "max_iter": 704
+  }
+}
